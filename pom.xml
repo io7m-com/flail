@@ -21,6 +21,7 @@
   <url>https://www.io7m.com/software/flail</url>
 
   <properties>
+    <!-- Configuration -->
     <io7m.api.previousVersion>0.0.1</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
   </properties>
@@ -28,14 +29,14 @@
   <licenses>
     <license>
       <name>ISC</name>
-      <url>https://io7m.com/license/isc.txt</url>
+      <url>https://www.io7m.com/license/isc.txt</url>
     </license>
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/flail</url>
-    <connection>scm:git:https://github.com/io7m/flail</connection>
-    <developerConnection>scm:git:https://github.com/io7m/flail</developerConnection>
+    <url>https://www.github.com/io7m-com/flail</url>
+    <connection>scm:git:https://www.github.com/io7m-com/flail</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/flail</developerConnection>
   </scm>
 
   <developers>
@@ -43,12 +44,12 @@
       <id>io7m</id>
       <name>io7m</name>
       <email>code@io7m.com</email>
-      <url>https://io7m.com</url>
+      <url>https://www.io7m.com</url>
     </developer>
   </developers>
 
   <issueManagement>
-    <url>https://github.com/io7m/flail/issues</url>
+    <url>https://www.github.com/io7m-com/flail/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -70,7 +71,7 @@
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/flail/actions</url>
+    <url>https://www.github.com/io7m-com/flail/actions</url>
   </ciManagement>
 
   <dependencies>
