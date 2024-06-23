@@ -40,7 +40,8 @@ import java.util.stream.Collectors;
 
 public final class FlailMain
 {
-  private static final Logger LOG = LoggerFactory.getLogger(FlailMain.class);
+  private static final Logger LOG =
+    LoggerFactory.getLogger(FlailMain.class);
 
   private FlailMain()
   {
