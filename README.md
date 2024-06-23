@@ -18,6 +18,8 @@ flail
 ## flail
 
 The `flail` package provides a command-line DNS server stress testing tool.
+The tool is a paper-thin wrapper around the excellent [DNSJava](https://github.com/dnsjava/dnsjava)
+library.
 
 ## Features
 
