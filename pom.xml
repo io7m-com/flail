@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>9.0.0-beta0003</version>
+    <version>9.0.0</version>
   </parent>
 
   <groupId>com.io7m.flail</groupId>
@@ -90,15 +90,6 @@
 
   <build>
     <plugins>
-      <!-- Spot bugs -->
-      <plugin>
-        <groupId>com.github.spotbugs</groupId>
-        <artifactId>spotbugs-maven-plugin</artifactId>
-        <configuration>
-          <excludeFilterFile>spotbugs-filter.xml</excludeFilterFile>
-        </configuration>
-      </plugin>
-
       <!-- Produce command-line onejar -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -137,13 +128,6 @@
             <ignoredUnusedDeclaredDependency>ch.qos.logback:logback-classic:*</ignoredUnusedDeclaredDependency>
           </ignoredUnusedDeclaredDependencies>
         </configuration>
-      </plugin>
-
-      <!-- Generate a site -->
-      <plugin>
-        <groupId>com.io7m.minisite</groupId>
-        <artifactId>com.io7m.minisite.maven_plugin</artifactId>
-        <inherited>false</inherited>
       </plugin>
     </plugins>
   </build>
